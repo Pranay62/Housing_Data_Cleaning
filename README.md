@@ -1,12 +1,14 @@
-Nashville Housing Data Cleaning Project
+**Nashville Housing Data Cleaning Project**
 
 This project aims to clean the Nashville Housing dataset by standardizing date formats, populating null values for property addresses, 
 breaking down property and owner addresses into individual columns, removing duplicates, and deleting unused columns.
 
-Dataset
+**Dataset**
+
 The dataset used in this project is the Nashville Housing dataset. It contains information about housing sales in Nashville from 2013 to 2018.
 
-Queries
+**Queries**
+
 The queries used to clean the dataset are as follows:
 
 1. Standardize Date Format:
@@ -37,9 +39,9 @@ The queries used to clean the dataset are as follows:
               Deletes the OwnerAddress, TaxDistrict, PropertyAddress, and SaleDate columns from the dataset.
 
 
-Instructions
+**Instructions**
 
 To use these queries, open SQL Server Management Studio and connect to the database where the Nashville Housing dataset is stored. 
 Copy and paste the queries into the query editor and execute them one by one.
 
-Note: These queries are specific to the Nashville Housing dataset and may need to be modified for use with other datasets.
+**Note**: These queries are specific to the Nashville Housing dataset and may need to be modified for use with other datasets.
